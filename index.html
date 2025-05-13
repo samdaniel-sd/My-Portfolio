@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sam Daniel</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="mediaQurey.css">
+    </head>
+    <body>
+        <nav class="desktop-nav">
+            <div >
+                <p class="name-logo" draggable="true">Sam Daniel</p>
+            </div>
+            <div >
+                <ul class="nav-items">
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="hamburger-nav">
+            <div class="name-logo">
+                <p class="name-logo" draggable="true">Sam Daniel</p>
+            </div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()" >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="menu-link">
+                        <li><a href="#skills" onclick="toggleMenu()" >Skills</a></li>
+                        <li><a href="#about" onclick="toggleMenu()" >About</a></li>
+                        <li><a href="#project" onclick="toggleMenu()" >Project</a></li>
+                        <li><a href="#contact" onclick="toggleMenu()" >Contact</a></li>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+                <!-- PROFILE SECTION -->
+
+
+        <section id="profile">
+            <div class="profile-pic-container">
+                <img src="assets/logo.jpg" alt="pic" class="profile-pic">
+            </div>
+            <div class="section-text">
+                <p class="section-text-p1">Hello I'm</p>
+                <h1 class="name-title">Sam Daniel</h1>
+                <p class="section-text-p2">Frontend Devloper</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclicK="window.open('./assets/SAM DANIEL.pdf')">Download CV</button>
+                    <button class="btn btn-color-1" onclicK="location.href='#contact'">Contact Info</button>
+                </div>
+                <div id="social-container">
+                    <a href="https://www.linkedin.com/in/s-sam-daniel-sd?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'"
+                    target="_blank">
+                        <img src="./assets/linkedin.png"
+                        alt="My linkedIn Profile" 
+                        class="icon" >
+                    </a>
+                    <a href="https://github.com/SamDanielSD" target="_blank">
+                        <img src="./assets/github.png" 
+                    class="icon"
+                    alt="My Github Profile">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SKILLS -->
+
+
+        <section id="skills">
+
+        
+            <div class="heading">
+                <p class="section-text-p1"> Have a look at</p>
+                <h1 class="title">My Skills</h1>
+            </div>
+            <div class="skill-section">
+                <div class="left-container">
+                    <div class="frontend-development">
+                        <div class="title-container">
+                            <h3 class="container-title">Web Development</h3>
+                        </div>
+                            
+                        <div class="skillgroup-container">
+                            <div class="skill-container">
+                                <img src="./assets/checkmark.png" class="icon">
+                                <div class="skill-details">
+                                    <h4 class="skill-name">HTML</h4>
+                                    <p class="skill-dis">Experienced</p>
+                                </div>
+                            </div>
+                            <div class="skill-container">
+                                <img src="./assets/checkmark.png" class="icon">
+                                <div class="skill-details">
+                                    <h4 class="skill-name">CSS</h4>
+                                    <p class="skill-dis">Experienced</p>
+                                </div>
+                            </div>
+                            <div class="skill-container">
+                                <img src="./assets/checkmark.png" class="icon">
+                                <div class="skill-details">
+                                    <h4 class="skill-name">Bootstrap</h4>
+                                    <p class="skill-dis">Intermediate</p>
+                                </div>
+                            </div>
+                            <div class="skill-container">
+                                <img src="./assets/checkmark.png" class="icon">
+                                <div class="skill-details">
+                                    <h4 class="skill-name">Javascript</h4>
+                                    <p class="skill-dis">Intermediate</p>
+                                </div>
+                            </div>
+                            <div class="skill-container">
+                                <img src="./assets/checkmark.png" class="icon">
+                                <div class="skill-details">
+                                    <h4 class="skill-name">jQuery</h4>
+                                    <p class="skill-dis">Intermediate</p>
+                                </div>
+                            </div>
+                            <div class="skill-container">
+                                <img src="./assets/checkmark.png" class="icon">
+                                <div class="skill-details">
+                                    <h4 class="skill-name">GIT</h4>
+                                    <p class="skill-dis">Basics</p>
+                                </div>
+                            </div>
+                            <div class="skill-container">
+                                <img src="./assets/checkmark.png" class="icon">
+                                <div class="skill-details">
+                                    <h4 class="skill-name">Node JS</h4>
+                                    <p class="skill-dis">Basics</p>
+                                </div>
+                            </div>
+                            <div class="skill-container">
+                                <img src="./assets/checkmark.png" class="icon">
+                                <div class="skill-details">
+                                    <h4 class="skill-name">Express JS</h4>
+                                    <p class="skill-dis">Basics</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="right-container">
+                    <div class="coding-lang">
+                        
+                        <div class="title-container">
+                            <h3 class="container-title">Coding Lang</h3>
+                        </div>
+
+                        <div class="skillgroup-container">
+                            <div class="skill-container">
+                                <img src="./assets/checkmark.png" class="icon">
+                                <div class="skill-details">
+                                    <h4 class="skill-name">Python</h4>
+                                    <p class="skill-dis">Intermediate</p>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-container">
+                                <img src="./assets/checkmark.png" class="icon">
+                                <div class="skill-details">
+                                    <h4 class="skill-name">JAVA</h4>
+                                    <p class="skill-dis">Basics</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                        
+                    <div class="other-skills">
+                        
+                        <div class="title-container">
+                            <h3 class="container-title">Other Skills</h3>
+                        </div>
+                        <div class="skillgroup-container">
+                            <div class="skill-container">
+                                <img src="./assets/checkmark.png" class="icon">
+                                <div class="skill-details">
+                                    <h4 class="skill-name">Photography</h4>
+                                    <p class="skill-dis">Experienced</p>
+                                </div>
+                            </div>
+                            <div class="skill-container">
+                                <img src="./assets/checkmark.png" class="icon">
+                                <div class="skill-details">
+                                    <h4 class="skill-name">Photoshop</h4>
+                                    <p class="skill-dis">Experienced</p>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-container">
+                                <img src="./assets/checkmark.png" class="icon">
+                                <div class="skill-details">
+                                    <h4 class="skill-name">DaVinci Resolve</h4>
+                                    <p class="skill-dis">Intermediate</p>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-container">
+                                <img src="./assets/checkmark.png" class="icon">
+                                <div class="skill-details">
+                                    <h4 class="skill-name">Adobe Illustrator</h4>
+                                    <p class="skill-dis">Intermediate</p>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        
+                        
+
+                    </div>
+                </div>
+            </div>
+
+        </section>  
+
+
+
+
+                <!-- ABOUT -->
+
+        <Section id="about">
+            <div class="heading">
+                <p class="section-text-p1"> Get to Know More</p>
+                <h1 class="title">About me</h1>
+            </div>
+            <div class="about-section">
+
+                <div class="left-container" >
+
+                    <div class="detail-container education">
+                        <div>
+                            <img src="./assets/education.png"
+                            class="icon"
+                            alt="edication">
+                            <h3 class="detail-heading">Education</h3>
+                        
+                            <p class="detail-para">Bachelors of Engineering in Computer Science and Engineering at Nandha Engineering College</p>
+                        </div>
+                    </div>
+
+                    <div class="detail-container experience">
+
+                        <div>
+                            <img src="./assets/experience.png" 
+                            class="icon" 
+                            alt="experience" >
+                            <h3 class="detail-heading">Experience</h3>
+                        
+
+                            <ul>
+                                <li class="detail-para">  • Worked as a Video Editor.</li>
+                                <li class="detail-para">• Worked as a Freelance Web Desinger</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="right-container">
+
+                    <div class="detail-container hobbies">
+
+                        <img src="./assets/puzzle.png"
+                        class="icon"
+                        alt="hobbies">
+                        <h3 class="detail-heading">Hobbies</h3>
+
+                        <div class="hobbie-container left">
+                            <img 
+                            src="https://cdn-icons-gif.flaticon.com/8797/8797788.gif"
+                            class="icon hobbies-icon">
+                            <h4 class="detail-subheading">Video Editing</h4>
+                            <p class="detail-para">Love to create frame at my pov...</p>
+                        </div>
+                       
+                        <div class="hobbie-container right">
+                            <img 
+                            src="https://cdn-icons-gif.flaticon.com/15584/15584173.gif"
+                            class="icon hobbies-icon">
+                            <h4 class="detail-subheading">Photography</h4>
+                            <p class="detail-para">Like to capture moments, cause they won't visit again!</p>
+                        </div>
+
+                        <div class="hobbie-container left">
+                            <img 
+                            src="https://cdn-icons-gif.flaticon.com/13708/13708038.gif"
+                            class="icon hobbies-icon">
+                            <h4 class="detail-subheading">Chess</h4>
+                            <p class="detail-para">Kills boredom and brings stress...</p>
+                        </div>
+
+                        <div class="hobbie-container right">
+                            <img 
+                            src="https://cdn-icons-gif.flaticon.com/16081/16081126.gif"
+                            class="icon hobbies-icon">
+                            <h4 class="detail-subheading">Watching Anime</h4>
+                            <p class="detail-para">Makes me feel alive!.</p>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </Section>
+
+
+                <!-- PROJECT SECTION -->
+
+        
+        <section id="project">
+            <div class="heading">
+                <p class="section-text-p1"> Browse my recent</p>
+                <h1 class="title">Projects</h1>
+            </div>
+
+            <div class="project-section">
+                <div class="project-container">
+                    <div class="project-details">
+                            <img src="./assets/project-1.jpeg" alt="project 1" class="project-img">
+                        
+                        <h3 class="project-title">Tin Dog</h3>
+                    </div>
+                    <div class="btn-container">
+                        <a href="https://github.com/SamDanielSD/Tindog" target="_blank">
+                            <button class="btn btn-color-2">Github</button>
+                        <a href="  https://samdanielsd.github.io/Tindog/" target="_blank">
+                            <button class="btn btn-color-1">Live Demo</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-container left">
+                    <div class="project-details">
+                            <img src="./assets/project-2.png"
+                            alt="project 2"
+                            class="project-img">
+                        <h3 class="project-title"> Simon Game</h3>
+                    </div>
+                    <div class="btn-container">
+                        <a href="https://github.com/SamDanielSD/simon-game" target="_blank">
+                            <button class="btn btn-color-2">Github</button>
+                        <a href=" https://samdanielsd.github.io/simon-game/" target="_blank">
+                            <button class="btn btn-color-1">Live Demo</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <!-- CONTACT SECTION -->
+
+        <section id="contact">
+            <div class="heading">
+                <p class="section-text-p1"> Get in touch</p>
+                <h1 class="title">Contact</h1>
+            </div>
+                <div class="contact-section">
+                    <div class="contact-container">
+                        <img src="./assets/email.png" alt="email"
+                        class="icon">
+                        <a href="mailto:s.samdanielsd2@gmail.com">s.samdanielsd2@gmail.com</a>
+                    </div>
+                    <div class="contact-container">
+                        <img src="./assets/linkedin.png" alt="email"
+                        class="icon">
+                        <a href="https://www.linkedin.com/in/s-sam-daniel-sd?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+                    </div>
+                </div>
+            
+        </section>
+        <footer id="footer">
+            <div >
+                <ul class="nav-items">
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <p>Copyright ©2024 Sam Daniel. All Rights Reserved.</p>
+        </footer>
+
+        <script src="index.js"></script>
+    </body>
+</html>
+
